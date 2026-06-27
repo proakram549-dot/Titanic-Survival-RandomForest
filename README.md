@@ -37,3 +37,18 @@ The model was evaluated on an unseen 20% validation split (179 samples), yieldin
 ```text
 [[92  13]   <-- [True Negatives (Died),  False Positives]
  [19  55]]  <-- [False Negatives,        True Positives (Survived)]
+---
+
+## 📁 Repository Structure
+
+```text
+├── notebook/
+│   └── titanic_random_forest.ipynb # Core structured Jupyter Notebook 
+├── LICENSE                     # MIT License documentation
+├── .gitignore                  # Python environment ignore file
+└── README.md                   # Project documentation (This file)
+🚀 Getting Started
+​1. Clone the Repository
+git clone https://github.com/proakram549-dot/Titanic-Survival-RandomForest.git
+2. Run the Notebook
+​Open your preferred environment (Kaggle or Jupyter) and execute notebook/titanic_random_forest.ipynb to explore the complete training cycle.
